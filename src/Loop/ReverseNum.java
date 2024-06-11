@@ -1,6 +1,5 @@
-package Java.loop;
+package Loop;
 
-import java.awt.desktop.PreferencesEvent;
 import java.util.Scanner;
 
 public class ReverseNum {
