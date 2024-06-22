@@ -20,6 +20,8 @@ import java.util.List;
         list1.add(21);
         list1.add(31);*/
         System.out.println(list);
+        System.out.println(list.indexOf(31));
+        System.out.println(list.lastIndexOf(31));
         System.out.println(list.size());
         System.out.println(list.contains(40));
         System.out.println(list.remove(2));
