@@ -11,18 +11,17 @@ public class Listiterator {
         fruits.add("grapes");
         fruits.add("banana");
         int i;
-        for(i = 0; i < fruits.size(); i++)
-        {
+        for (i = 0; i < fruits.size(); i++) {
             System.out.println(" by for loop:" + fruits.get(i));
         }
         System.out.println("........................");
-        for(String fruit: fruits){
-           System.out.println(" by for each : "+fruit);
-       }
-          System.out.println("........................");
-        Iterator<String> f= fruits.iterator();
-        while (f.hasNext()){
-            System.out.println(" by iterator :"  +  f.next());
+        for (String fruit : fruits) {
+            System.out.println(" by for each : " + fruit);
+        }
+        System.out.println("........................");
+        Iterator<String> f = fruits.iterator();
+        while (f.hasNext()) {
+            System.out.println(" by iterator :" + f.next());
         }
     }
 }
