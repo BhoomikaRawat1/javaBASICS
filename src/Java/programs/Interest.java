@@ -1,6 +1,5 @@
-package Java;
+package Java.programs;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Interest {
