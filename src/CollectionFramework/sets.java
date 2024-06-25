@@ -10,18 +10,20 @@ public class sets {
         Set<Integer> set=new HashSet<>();
         Set<Integer> s =new LinkedHashSet<>();
         Set<Integer> q =new TreeSet<>();
-        //has
+        //hashset
         set.add(10);
         set.add(11);
         set.add(12);
         set.add(13);
         System.out.println(set);
+        //LinkedHashSet
         set.remove(11);
         System.out.println(set);
         s.add(1);
         s.add(2);
         s.add(3);
         System.out.println(s);
+        //TreeSet
         q.add(2);
         q.add(4);
         q.add(6);
