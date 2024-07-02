@@ -1,4 +1,4 @@
-package HackerankProblems;
+package Java.programs;
 
 import java.util.Scanner;
 

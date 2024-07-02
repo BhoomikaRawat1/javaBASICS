@@ -8,8 +8,6 @@ public class Generics {
         System.out.println(obj1.name);
         System.out.println(obj.getId());
         System.out.println(obj.name);
-
-
     }
 }
 class customer<E,V> {
